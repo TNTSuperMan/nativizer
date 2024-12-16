@@ -1,0 +1,31 @@
+{
+  "name": "nativizer",
+  "version": "0.0.1",
+  "author": "TNTSuperMan",
+  "main": "dist/nativizer.esm.js",
+  "module": "dist/nativizer.esm.js",
+  "types": "dist/index.d.ts",
+  "unpkg": "dist/nativizer.global.js",
+  "jsdelivr": "dist/nativizer.global.js",
+  "readme": "readme.md",
+  "repository": {
+    "url": "git+https://github.com/TNTSuperMan/nativizer.git",
+    "type": "git"
+  },
+  "description": "normal function to native code.",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "rollup -c"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.28.1",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
+}

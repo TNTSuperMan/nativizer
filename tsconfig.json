@@ -1,0 +1,47 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "strict": true,
+        "alwaysStrict": true,
+        "moduleResolution": "node",
+
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "baseUrl": "./",
+
+        "noEmit": false,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "declarationMap": true,
+
+        "sourceMap": true,
+
+        "lib": ["ESNext"],
+        "skipLibCheck": false,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "forceConsistentCasingInFileNames": true,
+
+        "incremental": true,
+        "tsBuildInfoFile": "./dist/.tscache",
+
+        "removeComments": true,
+
+        "importHelpers": true,
+        "downlevelIteration": true,
+        "isolatedModules": false,
+        "composite": false
+    },
+    "include": ["src/**/*"],
+    "exclude": ["test", "node_modules", "dist"],
+}

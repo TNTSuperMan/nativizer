@@ -1,0 +1,10 @@
+/.rollup.cache
+/dist/.tscache
+/node_modules
+/src
+/test
+.gitignore
+.npmignore
+bun.lockb
+rollup.config.js
+tsconfig.json
