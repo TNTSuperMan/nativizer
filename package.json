@@ -1,6 +1,6 @@
 {
   "name": "nativizer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "TNTSuperMan",
   "main": "dist/nativizer.esm.js",
   "module": "dist/nativizer.esm.js",
